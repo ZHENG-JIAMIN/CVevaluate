@@ -17,15 +17,19 @@ export interface GlobalContextsProviderProps {
   antdConfigProviderProps?: Partial<
     Omit<React.ComponentProps<typeof AntdConfigProvider>, "children">
   >;
+
   strapiCredentialsProviderProps?: Partial<
     Omit<React.ComponentProps<typeof StrapiCredentialsProvider>, "children">
   >;
+
   sanityCredentialsProviderProps?: Partial<
     Omit<React.ComponentProps<typeof SanityCredentialsProvider>, "children">
   >;
+
   cmsCredentialsProviderProps?: Partial<
     Omit<React.ComponentProps<typeof CmsCredentialsProvider>, "children">
   >;
+
   commerceProviderComponentProps?: Partial<
     Omit<React.ComponentProps<typeof CommerceProviderComponent>, "children">
   >;
