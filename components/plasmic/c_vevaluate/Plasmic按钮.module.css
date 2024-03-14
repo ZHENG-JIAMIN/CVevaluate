@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.button___1P39P:global(.__wab_instance) {
+  max-width: 100%;
+  position: absolute;
+  left: 545px;
+  top: 343px;
+  width: 300px;
+  height: 45px;
+  flex-shrink: 0;
+}
+.svg__v45Pc {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
+.text__uyzfT {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--token-41VRhDKfihhY);
+}
+.svg__wtn57 {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 1em;
+}
